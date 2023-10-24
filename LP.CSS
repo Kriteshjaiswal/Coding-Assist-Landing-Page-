@@ -152,7 +152,8 @@ section.information .info-1{
 }
 .technology-image img{
     height: 28em;
-    width: auto;
+    width: 20em;
+    margin-left: -10px;
 }
 
 footer{
@@ -221,15 +222,27 @@ footer .container{
     section.setup{
         padding: 50px 0 ;
     }
+    section.information .information-text{
+        margin-left: 20px;
+        padding: 130px 10px;
+    }
 
     footer{
         padding-top: 50px;
         margin-bottom:44px;
     }
     footer small a:hover{
-        display: none;
+        background: linear-gradient(1deg, #b6b6b6, transparent);
+        padding: 10px 20px;
+        border-radius: 5px;
     }
     footer .col-md-6{
         width:100vw;
+    }
+    footer .col-md-3{
+        padding: 8px 0;
+    }
+    footer .container{
+        background:none;
     }
 }
